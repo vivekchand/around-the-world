@@ -55,7 +55,9 @@
                 android:textColor="@android:color/white" />
 
         </LinearLayout>
-
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_detail"/>
         <ImageButton
             android:id="@+id/btn_add"
             android:layout_width="@dimen/floating_button_size"
